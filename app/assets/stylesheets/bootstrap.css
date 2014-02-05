@@ -7,7 +7,16 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-
+.dev-image{
+  padding-top: 50px;
+}
+.dev-text{
+  text-align: center;
+  padding-top: 10px;
+}
+.dev-link{
+  padding-right: 10px;
+}
 article,
 aside,
 details,

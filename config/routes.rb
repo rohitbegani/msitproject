@@ -5,6 +5,7 @@ Treebook::Application.routes.draw do
     get '/register', to: 'devise/registrations#new', as: :register
     get '/login', to: 'devise/sessions#new', as: :login
     get '/logout', to: 'devise/sessions#destroy', as: :logout
+    get '/developer', to: 'developer#show' , as: :developer
   end
 
   devise_for :users, skip: [:sessions]
