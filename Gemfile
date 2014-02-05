@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
 gem 'rails', '3.2.6'
 
 # Bundle edge Rails instead:
@@ -11,6 +12,7 @@ gem 'state_machine'
 gem 'draper', '~> 1.0'
 gem 'js-routes'
 gem 'rails_12factor'
+gem 'heroku'
 
 group :test do
   gem 'shoulda'
